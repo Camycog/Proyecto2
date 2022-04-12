@@ -7,6 +7,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 50px;
 
 }
 
@@ -66,7 +68,8 @@ header nav{
     -webkit-box-shadow: 2px 2px 13px -4px rgba(255, 213, 250.50);
     box-shadow: 2px 2px 13px -4px rgba(255, 213, 250.50);
 }
-/*configuracion barrita del login*/
+/*configuracion login*/
+
 .header-bar {
     display: flex;
     justify-content: space-between;
@@ -81,4 +84,18 @@ header nav{
 }
 .card-body {
     padding: 20px;
+}
+
+/*letras */
+
+h1,h2,h3,h4,h5,h6
+    {
+    font-family: 'Raleway', sans-serif;
+}
+
+a,p {
+    color: #8384DF;
+}
+a {
+    font-weight: 600;  /*tamaño letra*/
 }
