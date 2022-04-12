@@ -136,9 +136,11 @@ textarea {
 
 /*imagen pag. BTS*/
 
-.form-kpop{
-
-}
 .form-kpop h1{
-    
+    text-align: center; 
+    color: #8384DF;
+}
+
+.Imagen{
+    text-align : center;
 }
